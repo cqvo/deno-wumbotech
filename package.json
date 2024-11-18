@@ -12,7 +12,7 @@
 		"lint": "prettier --check . && eslint ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.0.0",
+		"@faker-js/faker": "^9.2.0",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^4.0.0",
 		"@types/eslint": "^9.6.0",
@@ -32,7 +32,12 @@
 		"vite": "^5.0.3"
 	},
 	"dependencies": {
+		"@skeletonlabs/skeleton": "^3.0.0-next.9",
+		"@skeletonlabs/skeleton-svelte": "^1.0.0-next.13",
 		"@tailwindcss/forms": "^0.5.9",
-		"@tailwindcss/typography": "^0.5.15"
+		"@tailwindcss/typography": "^0.5.15",
+		"@types/deno": "^2.0.0",
+		"lucide-svelte": "^0.460.1",
+		"sveltekit-adapter-deno": "^0.16.1"
 	}
 }
