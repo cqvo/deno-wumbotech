@@ -1,4 +1,6 @@
-export async function load() {
+import type { PageServerLoad } from './$types';
+
+export const load: PageServerLoad = async () => {
 	try {
 		const filePath = './src/lib/components/roles.json';
 		const text = await Deno.readTextFile(filePath);

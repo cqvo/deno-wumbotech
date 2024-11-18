@@ -3,17 +3,17 @@
 	let { companyUrl, companyLogo, companyName, title, tenure, bullets } = $props();
 </script>
 
-<div class="flex">
+<div class="flex card preset-filled-surface-100-900 border-[1px] border-surface-200-800 w-full gap-2">
 	<aside class="grid grid-cols-1 p-4">
 		<div class="justify-items-center">
 			<a href={companyUrl}>
 				<Avatar
 					src={companyLogo}
 					name={companyName}
-					background="preset-filled-primary-500"
+					background="preset-filled-surface-500"
 					size="size-12"
-				/></a
-			>
+				/>
+			</a>
 		</div>
 	</aside>
 	<section class="grid grid-cols-1 p-4">

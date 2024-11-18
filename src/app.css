@@ -2,9 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 body {
-    background: linear-gradient(#172136,#091225);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: linear-gradient(#172136, #091225) no-repeat fixed;
     height: 100%;
     margin: 0;
     padding: 0;

@@ -1,16 +1,18 @@
 <script lang="ts">
+	import type { PageData } from './$types';
 	import Bio from '$lib/components/bio.svelte';
 	import XpRole from '$lib/components/xp-role.svelte';
-	export const roles = [
-		{
-			companyName: 'Velir',
-			companyLogo: '/img/velir.png',
-			companyUrl: 'https://www.velir.com',
-			title: 'Associate Director, Digital Analytics',
-			tenure: '2022 - Present',
-			bullets: ['Bullet 1', 'Bullet 2', 'Bullet 3']
-		}
-	];
+	let { data }: { data: PageData } = $props();
+	// export const roles = [
+	// 	{
+	// 		companyName: 'Velir',
+	// 		companyLogo: '/img/velir.png',
+	// 		companyUrl: 'https://www.velir.com',
+	// 		title: 'Associate Director, Digital Analytics',
+	// 		tenure: '2022 - Present',
+	// 		bullets: ['Bullet 1', 'Bullet 2', 'Bullet 3']
+	// 	}
+	// ];
 </script>
 
 <div class="mx-auto grid max-w-screen-lg grid-cols-1 gap-4 md:grid-cols-[auto_1fr]">
@@ -20,6 +22,7 @@
 			name="Chris Vo"
 			title="Chief Wumbologist"
 			githubUrl="https://github.com/cqvo"
+			email="chris.q.vo@gmail.com"
 			tagline=""
 		/>
 	</aside>
@@ -27,11 +30,14 @@
 	<main class="flex-auto space-y-4 p-4">
 		<article class="card p-4">
 			<h1 class="h3">Skills</h1>
+<!--			<section class="card preset-filled-surface-100-900 border-[1px] border-surface-200-800 w-full gap-2">-->
+<!--				<div></div>-->
+<!--			</section>-->
 			<p>Cenaculum vergo vespillo terra. Subnecto ulterius ustilo peior. Accommodo colo ceno.</p>
 		</article>
-		<article class="card p-4">
+		<article class="card p-4 grid grid-cols-1 gap-4">
 			<h1 class="h3">Work Experience</h1>
-			{#each roles as role}
+			{#each data.roles as role}
 				<section class="card preset-filled-surface-100-900">
 					<XpRole
 						companyName={role.companyName}
