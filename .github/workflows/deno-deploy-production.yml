@@ -32,5 +32,9 @@ jobs:
       - name: Build step
         run: "deno task build"
 
-      - name: Deploy to Deno Deploy Production
-        run: "deployctl deploy --prod --project chrisvo-deno-wumbot-38 build/mod.ts"
+      - name: Upload to Deno Deploy
+        uses: denoland/deployctl@v1
+        with:
+          project: "chrisvo-deno-wumbot-38"
+          entrypoint: "mod.ts"
+          root: "build"
