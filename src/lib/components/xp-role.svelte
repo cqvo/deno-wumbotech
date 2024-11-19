@@ -21,7 +21,7 @@
 		<span class="type-scale-1">{tenure}</span>
 		<h1 class="h5">{title}</h1>
 		{#if bullets}
-			<ul class="list-inside list-disc space-y-1">
+			<ul class="list-outside list-disc space-y-2 ml-4">
 				{#each bullets as text}
 					<li>{text}</li>
 				{/each}

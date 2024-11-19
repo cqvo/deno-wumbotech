@@ -19,10 +19,10 @@
 </div>
 
 <div class="flex justify-center p-4 gap-2">
-		<a href={githubUrl} type="button" class="btn-icon preset-filled-primary-700-300">
+		<a href={githubUrl} type="button" class="btn-icon preset-tonal-primary">
 			<Github />
 		</a>
-		<a href="mailto:{email}" type="button" class="btn-icon preset-filled-primary-700-300">
+		<a href="mailto:{email}" type="button" class="btn-icon preset-tonal-primary">
 			<Mail />
 		</a>
 </div>

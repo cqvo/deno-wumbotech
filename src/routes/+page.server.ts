@@ -29,6 +29,20 @@ const roles = [
 			"Audited and performed statistical analysis on marketing campaign spend for major entertainment company",
 			"Analyzed qualitative consumer data and quantitative campaign data for CPG company looking to create new product variants"
 		]
+	},
+	{
+		"companyName": "BlueGranite (acquired by 3Cloud)",
+		"companyLogo": "/img/bluegranite.jpeg",
+		"companyUrl": "https://www.3cloudsolutions.com",
+		"title": "Solution Consultant",
+		"tenure": "2019 - 2020",
+		"bullets": [
+			"Developed compelling reports and dashboards using Microsoft Power BI",
+			"Elevated data visualizations into data storytelling through identifying client needs",
+			"Utilized DAX to create custom calculations and measures",
+			"Utilized Power Query to create light ETL processes within Power BI, unifying multiple data sources",
+			"Provided training, ranging from entry-level \"Dashboard in a Day\" training to advanced DAX workshops"
+		]
 	}
 ];
 
