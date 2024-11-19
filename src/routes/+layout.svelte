@@ -12,11 +12,10 @@
 				<span class="h5 content-center">WumboTech</span>
 			{/snippet}
 			{#snippet trail()}{/snippet}
-<!--			<nav class="btn-group justify-center p-2 md:flex-row">-->
-<!--				<a type="button" class="btn hover:preset-tonal" href="/blog">Blog</a>-->
-<!--				<a type="button" class="btn hover:preset-tonal" href="/about">About</a>-->
-<!--				<a type="button" class="btn hover:preset-tonal" href="/contact">Contact</a>-->
-<!--			</nav>-->
+			<nav class="btn-group justify-center p-2 md:flex-row">
+				<a type="button" class="btn hover:preset-tonal" href="/">Home</a>
+				<a type="button" class="btn hover:preset-tonal" href="/about">About</a>
+			</nav>
 		</AppBar>
 	</header>
 	<!-- Main -->
