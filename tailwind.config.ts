@@ -14,9 +14,11 @@ export default {
     extend: {}
   },
 
+  // darkMode: 'selector',
+
   plugins: [
     skeleton({
-      themes: [ themes.wintry ],
+      themes: [ themes.wintry, themes.cerberus, themes.hamlindigo, themes.terminus ],
     }),
     typography,
     forms,

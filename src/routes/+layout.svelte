@@ -7,7 +7,7 @@
 <div class="h-auto grid-rows-[auto_1fr_auto]">
 	<!-- Header -->
 	<header>
-		<AppBar background="bg-surface-950">
+		<AppBar>
 			{#snippet lead()}
 				<span class="h5 content-center">WumboTech</span>
 			{/snippet}
@@ -20,8 +20,10 @@
 		</AppBar>
 	</header>
 	<!-- Main -->
+
 	<div class="container mx-auto">
 		{@render children()}
 	</div>
+
 	<!-- Footer -->
 </div>
