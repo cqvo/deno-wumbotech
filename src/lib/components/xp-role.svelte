@@ -3,7 +3,7 @@
 	let { companyUrl, companyLogo, companyName, title, tenure, bullets } = $props();
 </script>
 
-<div class="flex card preset-filled-surface-100-900 border-[1px] border-surface-200-800 w-full gap-2">
+<div class="flex card preset-filled-surface-100-900 w-full gap-2">
 	<aside class="grid grid-cols-1 p-4">
 		<div class="justify-items-center">
 			<a href={companyUrl}>
@@ -17,11 +17,11 @@
 		</div>
 	</aside>
 	<section class="grid grid-cols-1 p-4">
-		<span class="type-scale-2"><strong><a href={companyUrl}>{companyName}</a></strong></span>
+		<span class="type-scale-2 font-bold"><a href={companyUrl}>{companyName}</a></span>
 		<span class="type-scale-1">{tenure}</span>
 		<h1 class="h5">{title}</h1>
 		{#if bullets}
-			<ul class="list-outside list-disc space-y-2 ml-4">
+			<ul class="list-inside list-nine space-y-2">
 				{#each bullets as text}
 					<li>{text}</li>
 				{/each}

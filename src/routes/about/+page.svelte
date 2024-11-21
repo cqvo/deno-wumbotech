@@ -20,8 +20,7 @@
 	<main class="flex-auto space-y-4 p-4">
 		<article class="card p-4">
 			<h1 class="h3">Skills</h1>
-
-			<p>Cenaculum vergo vespillo terra. Subnecto ulterius ustilo peior. Accommodo colo ceno.</p>
+			<p>I GOT 'EM.</p>
 		</article>
 		<article class="card p-4 grid grid-cols-1 gap-4">
 			<h1 class="h3">Work Experience</h1>

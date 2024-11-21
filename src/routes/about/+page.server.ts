@@ -8,13 +8,7 @@ const roles = [
 		"title": "Associate Director, Digital Analytics",
 		"tenure": "2022 - Present",
 		"bullets": [
-			"Transformed a web analytics team into a comprehensive behavioral analytics data team and expanded from one direct report to five",
-			"Consulted with clients to understand their needs and digital goals, define KPIs, assess and audit existing implementations",
-			"Evaluated various analytics vendors on behalf of clients and provided recommendations",
-			"Managed and executed end-to-end implementations of customer data platforms",
-			"Promoted within the agency greater analytics understanding and adoption across internal departments and clients",
-			"Performed in-depth data analysis and reporting, providing actionable recommendations aligned with defined goals and KPIs",
-			"Promoted client governance around analytics tracking and usage, ensuring best practices and consistent data quality"
+			"I do a lot of data strategizing and data engineering."
 		]
 	},
 	{
@@ -24,10 +18,7 @@ const roles = [
 		"title": "Senior Data Analyst",
 		"tenure": "2020 - 2022",
 		"bullets": [
-			"Lead analyst for project where in-app product offers were used to increase conversion through in-app and in-store funnels, leading to 11% lift in new app registrations and 20% lift in new registrant retention",
-			"Led technical implementation of Tealium iQ and Adobe Analytics for major retailer pivoting away from Google Tag Manager and Google Analytics",
-			"Audited and performed statistical analysis on marketing campaign spend for major entertainment company",
-			"Analyzed qualitative consumer data and quantitative campaign data for CPG company looking to create new product variants"
+			"I did a lot of data science-y stuff and a little bit of data strategy."
 		]
 	},
 	{
@@ -37,11 +28,17 @@ const roles = [
 		"title": "Solution Consultant",
 		"tenure": "2019 - 2020",
 		"bullets": [
-			"Developed compelling reports and dashboards using Microsoft Power BI",
-			"Elevated data visualizations into data storytelling through identifying client needs",
-			"Utilized DAX to create custom calculations and measures",
-			"Utilized Power Query to create light ETL processes within Power BI, unifying multiple data sources",
-			"Provided training, ranging from entry-level \"Dashboard in a Day\" training to advanced DAX workshops"
+			"I did a lot of data storytelling and some analytics engineering."
+		]
+	},
+	{
+		"companyName": "Monster Worldwide",
+		"companyLogo": "/img/monster.jpeg",
+		"companyUrl": "https://www.monster.com",
+		"title": "Senior Web Analyst",
+		"tenure": "2016 - 2019",
+		"bullets": [
+			"I did a lot of web and marketing data analysis."
 		]
 	}
 ];
