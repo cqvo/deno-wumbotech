@@ -1,7 +1,6 @@
 <script lang="ts">
 	import '../app.css';
 	let { children } = $props();
-	import { AppBar } from '@skeletonlabs/skeleton-svelte';
 </script>
 
 <div class="h-auto grid-rows-[auto_1fr_auto]">
@@ -16,7 +15,6 @@
 							<a type="button" class="btn hover:preset-tonal" href="/about">About</a>
 						</nav>
 		</section>
-<!--		<section class="bg-green-500">asdf</section>-->
 	</header>
 
 	<!-- Main -->
